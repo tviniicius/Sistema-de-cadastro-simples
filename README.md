@@ -19,9 +19,4 @@ Ideal para fins de aprendizado de HTML, CSS e JavaScript puro.
 - **HTML5** → Estrutura da aplicação  
 - **CSS3** → Estilização e layout  
 - **JavaScript (ES6)** → Lógica de funcionamento  
-- **LocalStorage** → Armazenamento no navegador  
-
----
-
-## 📂 Estrutura do Projeto
-
+- **LocalStorage** → Armazenamento no navegador 
