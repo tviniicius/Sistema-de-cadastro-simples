@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Usuários</h1>
+    </header>
+
+    <main>
+        <form id="form-cadastro">
+            <label>Nome:</label>
+            <input type="text" id="nome" required>
+
+            <label>Email:</label>
+            <input type="email" id="email" required>
+
+            <label>Senha:</label>
+            <input type="password" id="senha" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <h2>Usuários Cadastrados</h2>
+        <table id="tabela-usuarios">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>© 2025 - Sistema de Cadastro Simples</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
